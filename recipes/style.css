@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    background-image: url(../background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Carter One', cursive;
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 3px black;
+}
+img {
+    width: 700px;
+    height: 500px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 10px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+  }
+  .text {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    padding: 50px;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+  }
